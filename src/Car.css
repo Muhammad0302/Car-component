@@ -1,0 +1,123 @@
+.container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subContainer {
+  width: 95%;
+  height: 130px;
+  background-color: rgb(243, 242, 242);
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+.image {
+  width: 100px;
+  height: 130px;
+  object-fit: cover;
+  border-left: 30px solid black;
+  border-right: 30px solid black;
+}
+.featured {
+  font-size: 12px;
+  color: whitesmoke;
+  width: 85px;
+  height: 20px;
+  letter-spacing: 0px;
+  background-color: brown;
+  font-weight: bold;
+  border-radius: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+.leftContainer {
+  position: relative;
+}
+.bottomIcon {
+  width: 40px;
+  height: 20px;
+  border-radius: 2px;
+  color: white;
+  background-color: rgba(29, 26, 26, 0.35);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: small;
+}
+.imageIcon {
+  margin-left: 6px;
+}
+.rightConatiner {
+  width: 100%;
+}
+.rightSubConatiner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -13px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.rightContianer_text {
+  color: rgb(80, 78, 78);
+  margin-left: 10px;
+  margin-top: -13px;
+}
+.right_subText {
+  display: flex;
+  width: 35%;
+  margin-top: -27px;
+  margin-left: 2px;
+
+  /* margin-left: -20px; */
+  color: rgb(80, 78, 78);
+  justify-content: space-around;
+}
+.drawVerticleLine {
+  width: 2px;
+  margin-top: 20px;
+  height: 15px;
+  background-color: rgb(160, 153, 153);
+}
+.right_lastBar {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: -4px;
+  color: gray;
+  font-weight: 40;
+}
+.RightBottom_btn {
+  display: flex;
+  margin-top: -10px;
+}
+.showPhone_no {
+  margin-left: 5px;
+}
+.heartIcon {
+  width: 40px;
+  height: 30px;
+  background-color: rgb(240, 236, 236);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heartImage {
+  border-radius: 4px;
+}
+.showPhone_btn {
+  /* width: 90px; */
+  height: 23px;
+  background-color: green;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -1px;
+  font-weight: 400;
+  padding: 4px;
+}
